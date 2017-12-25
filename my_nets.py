@@ -3,11 +3,6 @@ import tensorflow as tf
 
 class UNet2D:
 
-    # TODO: delete
-    depth = 5
-    base_dim = 64
-    input_size = []
-
     # down_weights = []
     # down_biases = []
     down_logit = []
